@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	
+    
+ <!-- Saudacao, Bem vindo a calculadora de IMC -->   
+<TextView
+	android:id="@+id/saudacaoTextView"
+	android:layout_width="match_parent"
+	android:gravity="center" 
+	android:layout_height="100dp"/>
+
+
+ <!-- Pede pela informacao do peso -->  
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/peso" />
+
+<EditText
+	android:id="@+id/PesoEditText"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:inputType="textPersonName" >
+	<requestFocus />
+</EditText>
+
+
+ <!-- Pede pela informacao da Altura -->  
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/altura" />
+
+<EditText
+	android:id="@+id/AlturaEditText"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:inputType="textPersonName" >
+	<requestFocus />
+</EditText>
+
+ <!-- Display do butao para calcular o IMC -->  
+<Button
+	android:id="@+id/IMCButton"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:onClick="calcularIMC"
+	android:text="@string/imcButao"
+ />
+
+ <!-- Display do resultado do IMC -->  
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/imc" />
+
+<TextView
+	android:id="@+id/IMCTextView"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+/>
+
+</LinearLayout>
