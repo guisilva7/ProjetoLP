@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	
+    
+ <!-- Saudacao, Bem vindo a calculadora de IMC -->   
+<TextView
+	android:id="@+id/menuTextView"
+	android:layout_width="match_parent"
+	android:gravity="center" 
+	android:layout_height="100dp"/>
+
+ <!-- Display do butao para acessar calculadora de IMC -->
+
+<Button
+    android:id="@+id/calcIMCButton"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="80dp"
+    android:onClick="calculadoraIMC"
+    android:text="@string/imcButao" />
+
+ <!-- Display do butao para acessar Substituicao Alimentar -->  
+
+<Button
+    android:id="@+id/calcSubButton"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:text="@string/calcsubButao" />
+
+ <!-- Display do butao para acessar calculadora de Calorias -->
+
+<Button
+    android:id="@+id/calcCalButton"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:text="@string/calccalButao" />
+
+</LinearLayout>

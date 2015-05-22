@@ -57,7 +57,7 @@ public class IMCActivity extends Activity{
 		IMC = (float) (pesoIMC / Math.pow(alturaIMC,2));
 		
 		//retorna o IMC para display
-		msg = "Seu IMC: " + Float.toString(IMC) + ".";
+		msg = Float.toString(IMC) + ".";
 		
 		//categoria que user se encaixa de acordo com o imc
 		if(IMC < 17)

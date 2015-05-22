@@ -1653,10 +1653,10 @@ containing a value of this type.
         public static final int img3=0x7f02003a;
     }
     public static final class id {
-        public static final int AlturaEditText=0x7f090043;
-        public static final int IMCButton=0x7f090044;
-        public static final int IMCTextView=0x7f090045;
-        public static final int PesoEditText=0x7f090042;
+        public static final int AlturaEditText=0x7f090047;
+        public static final int IMCButton=0x7f090048;
+        public static final int IMCTextView=0x7f090049;
+        public static final int PesoEditText=0x7f090046;
         public static final int action_bar=0x7f090031;
         public static final int action_bar_activity_content=0x7f090003;
         public static final int action_bar_container=0x7f090030;
@@ -1670,10 +1670,13 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f090046;
+        public static final int action_settings=0x7f09004a;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
+        public static final int calcCalButton=0x7f090044;
+        public static final int calcIMCButton=0x7f090042;
+        public static final int calcSubButton=0x7f090043;
         public static final int checkbox=0x7f090029;
         public static final int collapseActionView=0x7f090015;
         public static final int decor_content_parent=0x7f09002f;
@@ -1692,6 +1695,7 @@ containing a value of this type.
         public static final int image=0x7f090023;
         public static final int listMode=0x7f09000a;
         public static final int list_item=0x7f090025;
+        public static final int menuTextView=0x7f090041;
         public static final int middle=0x7f09001d;
         public static final int never=0x7f090017;
         public static final int none=0x7f09000f;
@@ -1701,7 +1705,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f090008;
         public static final int radio=0x7f09002b;
         public static final int saudacaoButton=0x7f090040;
-        public static final int saudacaoTextView=0x7f090041;
+        public static final int saudacaoTextView=0x7f090045;
         public static final int search_badge=0x7f090035;
         public static final int search_bar=0x7f090034;
         public static final int search_button=0x7f090036;
@@ -1778,8 +1782,9 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030014;
         public static final int abc_simple_dropdown_hint=0x7f030015;
         public static final int activity_main=0x7f030016;
-        public static final int saudacao=0x7f030017;
-        public static final int support_simple_spinner_dropdown_item=0x7f030018;
+        public static final int menu=0x7f030017;
+        public static final int saudacao=0x7f030018;
+        public static final int support_simple_spinner_dropdown_item=0x7f030019;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1846,6 +1851,8 @@ containing a value of this type.
         public static final int action_settings=0x7f0a0011;
         public static final int altura=0x7f0a0016;
         public static final int app_name=0x7f0a0010;
+        public static final int calccalButao=0x7f0a001a;
+        public static final int calcsubButao=0x7f0a0019;
         public static final int clique=0x7f0a0013;
         public static final int imc=0x7f0a0017;
         public static final int imcButao=0x7f0a0018;

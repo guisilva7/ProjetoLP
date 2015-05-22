@@ -36,6 +36,20 @@
 				android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
+		
+        
+         <activity
+			android:name=
+			"com.example.helloworld.MenuActivity">
+			<intent-filter>
+				<action
+				android:name="helloworld.MOSTRAR_MENU" />
+				<category
+				android:name="helloworld.MENU_SAUDACAO" />
+				<category
+				android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
 		        
     </application>
 

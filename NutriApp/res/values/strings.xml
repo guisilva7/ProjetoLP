@@ -11,4 +11,6 @@
 	<string name="altura">Digite o sua altura:</string>
 	<string name="imc">Seu IMC:</string>
 	<string name="imcButao">Calcular IMC</string>
+	<string name="calcsubButao">Substituicoes</string>
+	<string name="calccalButao">Calcular Calorias</string>
 </resources>

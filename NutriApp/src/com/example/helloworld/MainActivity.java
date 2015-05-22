@@ -51,10 +51,10 @@ public class MainActivity extends ActionBarActivity {
     
     //funcao que aciona o intent de ir para a prox pagina
     public void logar(View v) { 
-    	Intent intent = new Intent(IMCActivity.ACAO_EXIBIR_SAUDACAO);
+    	Intent intent = new Intent(MenuActivity.ACAO_EXIBIR_SAUDACAO);
     
-    	intent.addCategory(IMCActivity.CATEGORIA_SAUDACAO);
-    	intent.putExtra(IMCActivity.EXTRA_NOME_USUARIO, "usuario");
+    	intent.addCategory(MenuActivity.CATEGORIA_SAUDACAO);
+    	intent.putExtra(MenuActivity.EXTRA_NOME_USUARIO, "usuario");
     	startActivity(intent);	
     }
     
