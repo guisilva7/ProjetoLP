@@ -32,6 +32,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_marginTop="20dp"
+    android:onClick="listaSubstituicoes"
     android:text="@string/calcsubButao" />
 
  <!-- Display do butao para acessar calculadora de Calorias -->

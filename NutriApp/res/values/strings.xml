@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">NutriApp</string>
-   <!-- <string name="hello_world">Hello world!</string>-->
     <string name="action_settings">Settings</string>
 	<string name="titulo">Informe seu nome</string>
 	<string name="clique">Login</string>
@@ -13,4 +12,9 @@
 	<string name="imcButao">Calcular IMC</string>
 	<string name="calcsubButao">Substituicoes</string>
 	<string name="calccalButao">Calcular Calorias</string>
+	<string name="substituirButao">Procurar</string>
+	<string name="substituicao">Alimentos neste grupo Alimentar:</string>
+	<string name="alimento">Digite o grupo alimentar:</string>
+	
+	
 </resources>
